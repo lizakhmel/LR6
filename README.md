@@ -58,3 +58,21 @@
 При помощи интерфейса GitHub создадим новую ветку(report) для будущего отчёта.
 
 ![Скриншот](screenshots/13.png)
+
+## 3.Лог команд
+```
+git config --global user.name "4319 Хмель Елизавета Алексеевна"
+git config --global user.email "liza.xmel@mail.ru"
+git config --global --list
+git clone https://github.com/lizakhmel/LR6
+git pull origin branch_name
+git log --oneline
+git checkout branch_name
+git show
+git merge branch_name
+git status
+git add
+git commit -m "text"
+git push origin --delete branch_name
+git reset --hard 64a8e57
+```
