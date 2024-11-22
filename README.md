@@ -61,20 +61,21 @@
 
 ## 3. Лог команд
 ```
-git config --global user.name "4319 Хмель Елизавета Алексеевна"
-git config --global user.email "liza.xmel@mail.ru"
-git config --global --list
-git clone https://github.com/lizakhmel/LR6
-git pull origin branch_name
-git log --oneline
-git checkout branch_name
-git show
-git merge branch_name
-git status
-git add
-git commit -m "text"
-git push origin --delete branch_name
-git reset --hard 64a8e57
+git config --global user.name "4319 Хмель Елизавета Алексеевна" (настройка имени в git)
+git config --global user.email "liza.xmel@mail.ru" (настройка почты в git)
+git config --global --list (вывод настроек клиента git)
+git clone https://github.com/lizakhmel/LR6 (создание локальной копии репозитория)
+git pull origin branch_name (загрузка изменений из ветки в локальный репозиторий)
+git log --oneline (просмотр истории коммитов в компактном виде)
+git checkout branch_name (переключение на другую ветку)
+git show (просмотр последнего изменения)
+git merge branch_name (слияние веток)
+git status (показ текущего сотояния рабочего каталога и индекса)
+git add (добавление изменений в файлах в индекс)
+git commit -m "text" (создание коммита)
+git push origin --delete branch_name (удаление ветки)
+git reset --hard 64a8e57 (откат коммита)
+git log --pretty=format :"%h - %ad - %an - %s" --date=short (показ истории изменений в отформатированном виде) 
 ```
 ## 4. История операций в форматированном виде
 
